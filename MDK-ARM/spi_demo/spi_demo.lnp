@@ -1,0 +1,28 @@
+--cpu=Cortex-M4.fp
+"spi_demo\system_stm32f4xx.o"
+"spi_demo\stm32f4xx_it.o"
+"spi_demo\main.o"
+"spi_demo\stm32f4xx_hal_msp.o"
+"spi_demo\spi.o"
+"spi_demo\gpio.o"
+"spi_demo\startup_stm32f410rx.o"
+"spi_demo\stm32f4xx_hal_tim_ex.o"
+"spi_demo\stm32f4xx_hal_dma_ex.o"
+"spi_demo\stm32f4xx_hal_flash.o"
+"spi_demo\stm32f4xx_hal_gpio.o"
+"spi_demo\stm32f4xx_hal_spi.o"
+"spi_demo\stm32f4xx_hal_tim.o"
+"spi_demo\stm32f4xx_hal_rcc.o"
+"spi_demo\stm32f4xx_hal.o"
+"spi_demo\stm32f4xx_hal_flash_ex.o"
+"spi_demo\stm32f4xx_hal_rcc_ex.o"
+"spi_demo\stm32f4xx_hal_dma.o"
+"spi_demo\stm32f4xx_hal_pwr.o"
+"spi_demo\stm32f4xx_hal_cortex.o"
+"spi_demo\stm32f4xx_hal_pwr_ex.o"
+"spi_demo\stm32f4xx_hal_flash_ramfunc.o"
+"spi_demo\led.o"
+--library_type=microlib --strict --scatter "spi_demo\spi_demo.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "spi_demo.map" -o spi_demo\spi_demo.axf

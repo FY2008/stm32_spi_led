@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "*.py": "python",
+        "stm32f4xx_hal.h": "c"
+    }
+}
