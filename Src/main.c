@@ -110,7 +110,7 @@ int main(void)
     if (add_num >=1000){
       add_num = 0;
     }
-    hc74959_display(add_num);
+    hc74959_display(1234);
     
   }
   /* USER CODE END 3 */
