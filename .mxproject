@@ -1,7 +1,7 @@
 [PreviousGenFiles]
-HeaderPath=D:/CubeMX/mdk/spi_demo/Inc
+HeaderPath=D:/CubeMX/mdk/spi_demo_led/Inc
 HeaderFiles=gpio.h;spi.h;stm32f4xx_it.h;stm32f4xx_hal_conf.h;main.h;
-SourcePath=D:/CubeMX/mdk/spi_demo/Src
+SourcePath=D:/CubeMX/mdk/spi_demo_led/Src
 SourceFiles=gpio.h;spi.h;stm32f4xx_it.h;stm32f4xx_hal_conf.h;main.h;gpio.c;spi.c;stm32f4xx_it.c;stm32f4xx_hal_msp.c;main.c;
 
 [PreviousLibFiles]
