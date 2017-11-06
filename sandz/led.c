@@ -16,19 +16,19 @@ void hc74959_display(uint16_t num){
       switch (j){
         case GE_BIT:
           // 个位
-          HAL_SPI_Transmit(&hspi2, &data[ge], 1, 100);     // SPI 输出
+          HAL_SPI_Transmit_IT(&hspi2, &data[ge], 1);     // SPI 输出
           break;
         case SHI_BIT:
           // 十位
-          HAL_SPI_Transmit(&hspi2, &data[shi], 1, 100);
+          HAL_SPI_Transmit_IT(&hspi2, &data[shi], 1);
           break;
         case BAI_BIT:
           // 百位
-          HAL_SPI_Transmit(&hspi2, &data[bai], 1, 100);
+          HAL_SPI_Transmit_IT(&hspi2, &data[bai], 1);
           break;
         case QIAN_BIT:
           // 千位
-          HAL_SPI_Transmit(&hspi2, &data[qian], 1, 100);
+          HAL_SPI_Transmit_IT(&hspi2, &data[qian], 1);
           break;
         default:
           break;
